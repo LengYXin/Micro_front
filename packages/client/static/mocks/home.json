@@ -1,0 +1,127 @@
+{
+    "course": [
+        {
+            "title": "中国画美育课",
+            "titleColor": "#c47d7d",
+            "subTitle": "笔墨游戏 ，蒙养生活",
+            "footerText": "查看课程",
+            "courseType": 1,
+            "linkTo": {
+                "name": "course-id",
+                "params": {
+                    "id": 11
+                }
+            },
+            "template": "painting",
+            "background": "#F7F3F0",
+            "dataSource": {
+                "id": 11,
+                "title": "笔墨游戏·林曦老师的中国画美育课",
+                "price": 9999,
+                "originalPrice": 11111,
+                "count": 30,
+                "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/11b98cb7a5cd36b11305b0b759dfbb6c.jpg",
+                "openClass": {
+                    "title": "【关于画画与美育的公开课】",
+                    "link": "https://v.qq.com/x/page/l3156yfaam3.html"
+                },
+                "children": [
+                    {
+                        "id": 46,
+                        "title": "第一阶|绘画通识与线描基础",
+                        "count": 10,
+                        "price": "3580",
+                        "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/ad5ea141648564c820345fa96465f97d.jpg"
+                    },
+                    {
+                        "id": 47,
+                        "title": "第二阶|花鸟果玩",
+                        "count": 10,
+                        "price": "3580",
+                        "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/31370515cc24f3ffdefe226a81b24443.jpg"
+                    },
+                    {
+                        "id": 48,
+                        "title": "第三阶|小景与人物",
+                        "count": 10,
+                        "price": "3580",
+                        "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/13f2eee8d1d27a60c4b68aa8bc85c266.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "写字课",
+            "titleColor": "#087276",
+            "subTitle": "以一支毛笔，开启中国传统文化的大门，从书法之美到生活之美",
+            "subTitleH5": "以一支毛笔，开启中国传统文化的大门",
+            "template": "fullOrder",
+            "background": "#FFFDF9",
+            "dataSource": {
+                "id": 8,
+                "title": "新全阶课程｜从书法之美到生活之美",
+                "price": 17600,
+                "originalPrice": 20580,
+                "count": 63,
+                "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/4aecb4c8c4a55c3ec727d82a30a001b1.png",
+                "children": [
+                    {
+                        "id": 27,
+                        "title": "入门课|写字旅行攻略",
+                        "count": 10,
+                        "price": "900",
+                        "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/672b8e3f1258ab354fbbfff638718f0e.jpg"
+                    },
+                    {
+                        "id": 28,
+                        "title": "新一阶|篆隶筑基课程",
+                        "count": 10,
+                        "price": "3580",
+                        "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/357afad926a0bfcccebf9dd14e4a5832.jpg"
+                    },
+                    {
+                        "id": 29,
+                        "title": "新二阶|楷书精进课程",
+                        "count": 10,
+                        "price": "3580",
+                        "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/d6bc945483a1896270987f2ab7f68887.jpg"
+                    },
+                    {
+                        "id": 30,
+                        "title": "新三阶|小楷写经课程",
+                        "count": 10,
+                        "price": "3580",
+                        "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/6dd6ebfcf7d9eebe7a620b15e08a3a20.jpg"
+                    },
+                    {
+                        "id": 31,
+                        "title": "新四阶|自在行草课程",
+                        "count": 10,
+                        "price": "3580",
+                        "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/30aa09ee09dae2ce85a9d1a39d38e4e9.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "写字课进阶",
+            "subTitle": "以静定，滋养身和心",
+            "footerText": "查看课程",
+            "linkTo": {
+                "name": "course-id",
+                "params": {
+                    "id": 1
+                }
+            },
+            "template": "write",
+            "background": "#FFFDF9",
+            "dataSource": {
+                "id": 7,
+                "title": "拙从秀出 | 关于颜真卿的深入学习",
+                "count": 30,
+                "price": 999,
+                "coursePictureUri": "https://oss-free.xuantong.cn/picturePath/6135cbd3490aa11bc4e052d1e4e681e4.jpg"
+            }
+        }
+    ]
+}

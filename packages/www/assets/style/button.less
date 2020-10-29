@@ -1,0 +1,191 @@
+// 扩展 按钮 颜色
+// <a-button type="yellow"></a-button>
+// https://github.com/vueComponent/ant-design-vue/blob/master/components/button/style/mixin.less
+.ant-btn {
+  &.ant-button-round {
+    border-radius: 20px;
+  }
+  &.xt-btn-ghost {
+    background-color: transparent;
+  }
+
+  &.ant-btn-link:hover,
+  &.ant-btn-link:focus {
+    color: @link-hover-color;
+    background-color: transparent;
+    border-color: transparent;
+  }
+}
+
+.ant-btn-yellow {
+  &.ant-btn {
+    .button-variant-primary(@white, @xt-yellow-6);
+    border-style: dashed;
+    &:hover,
+    &:focus {
+      color: @white;
+      background-color: @xt-yellow-5;
+    }
+  }
+  &.xt-btn-ghost {
+    color: @xt-yellow-6;
+    border-style: solid;
+    background-color: transparent;
+  }
+}
+
+.ant-btn-yellow {
+  &.ant-btn {
+    .button-variant-primary(@white, @xt-yellow-6);
+    border-style: dashed;
+    &:hover,
+    &:focus {
+      color: @white;
+      background-color: @xt-yellow-5;
+    }
+  }
+  &.xt-btn-ghost {
+    color: @xt-yellow-6;
+    border-style: solid;
+    background-color: transparent;
+  }
+}
+
+.ant-btn-line-yellow {
+  &.ant-btn {
+    .button-variant-primary(@xt-yellow-6, @xt-yellow-3);
+    border-style: dashed;
+    &:hover,
+    &:focus {
+      color: @xt-yellow-6;
+      background-color: @xt-yellow-3;
+    }
+  }
+  &.xt-btn-ghost {
+    color: @xt-yellow-6;
+    border-style: solid;
+    background-color: transparent;
+  }
+}
+
+.ant-btn-gray {
+  &.ant-btn {
+    .button-variant-primary(@xt-gray-6, @xt-gray-3);
+    border-style: dashed;
+    &:hover,
+    &:focus {
+      color: @white;
+      background-color: @xt-gray-5;
+    }
+  }
+  &.xt-btn-ghost {
+    color: @white;
+    border-style: solid;
+    background-color: transparent;
+  }
+}
+
+.ant-btn-grey {
+  &.ant-btn {
+    .button-variant-primary(@xt-grey-6, @xt-grey-3);
+    border-style: dashed;
+    &:hover,
+    &:focus {
+      color: @white;
+      background-color: @xt-grey-5;
+    }
+  }
+  &.xt-btn-ghost {
+    color: @white;
+    border-style: solid;
+    background-color: transparent;
+  }
+}
+
+.ant-btn-white {
+  &.ant-btn {
+    .button-variant-primary(@xt-black-3, transparent);
+    box-shadow: none;
+    border: 1px solid @xt-yellow-3;
+    &:hover,
+    &:focus {
+      color: @xt-black-5;
+      background-color: transparent;
+      border: 1px solid @xt-yellow-3;
+    }
+  }
+
+  &.xt-btn-ghost {
+    color: @xt-gray-6;
+    background-color: transparent;
+    border-style: solid;
+  }
+}
+
+.ant-btn-green {
+  &.ant-btn {
+    .button-variant-primary(@xt-green-6, transparent);
+    box-shadow: none;
+    border-style: dashed;
+
+    &:hover,
+    &:focus {
+      color: @xt-green-2;
+      background-color: transparent;
+      border-color: transparent;
+    }
+  }
+
+  &.xt-btn-ghost {
+    color: @xt-green-6;
+    background-color: transparent;
+    border-style: solid;
+  }
+}
+
+.ant-radio-yellow {
+  .ant-radio {
+    &-checked {
+      &::after {
+        border-color: @xt-yellow-6;
+      }
+      .ant-radio-inner {
+        border-color: @xt-yellow-6;
+        &::after {
+          background-color: @xt-yellow-6;
+        }
+      }
+    }
+  }
+  .ant-radio-wrapper:hover .ant-radio,
+  .ant-radio:hover .ant-radio-inner,
+  .ant-radio-input:focus + .ant-radio-inner {
+    border-color: @xt-yellow-6;
+  }
+}
+
+@checkbox: ant-checkbox;
+.ant-checkbox-yellow {
+  color: @xt-yellow-6;
+  &:hover .ant-checkbox-inner,
+  .@{checkbox}:hover .ant-checkbox-inner,
+  .@{checkbox}-input:hover + .ant-checkbox-inner {
+    border-color: @xt-yellow-6!important;
+  }
+  .@{checkbox} {
+    & + span {
+      padding-right: 0;
+    }
+    &-checked {
+      .ant-checkbox-inner {
+        color: @xt-white-6;
+        border-color: @xt-yellow-6;
+        background-color: @xt-yellow-6;
+      }
+      &::after {
+        color: @xt-white-6;
+        border: 1px solid @xt-yellow-6!important;
+      }
+    }
+  }
+}
